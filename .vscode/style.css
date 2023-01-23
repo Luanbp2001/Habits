@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2? família=Inter:wght@600&família=Roboto+Mono:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #09090a;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: transparent;
+  color: white;
+  border: 1px solid #8b5cf6;
+  border-radius: 8px;
+  margin: 16px 0;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 600;
+  line-height: 125%;
+}
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  background: #18181b;
+  border-radius: 8px;
+}
+form {
+  display: flex;
+  padding: 0 48px;
+}
+.habits {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.habit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  width: 40px;
+  height: 64px;
+}
+.days {
+  margin-left: 32px;
+  display: flex;
+  gap: 48px;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.day div {
+  text-align: center;
+  color: #a1a1aa;
+  font-family: "Roboto Mono";
+  font-size: 20px;
+  font-weight: 700;
+}
+input:checked {
+  background-color: #8b5cf6;
+}
